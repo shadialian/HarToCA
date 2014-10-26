@@ -1,0 +1,25 @@
+body{
+    direction: rtl;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.main-content {
+    font-size: 1.3em;
+}
+
+#start {
+    width:10em;
+    height:10em;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#start .text {
+    padding: 25%;
+}
