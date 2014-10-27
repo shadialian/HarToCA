@@ -34,9 +34,10 @@ body{
 #lion-fish { background-image: url(../img/lion-fish.jpg); }
 #puffer-fish { background-image: url(../img/puffer-fish.jpg); }
 #scorpion-fish { background-image: url(../img/scorpion-fish.jpg); }
+#stone-fish { background-image: url(../img/stone-fish.jpg); }
 #sea-urchin { background-image: url(../img/sea-urchin.jpg); }
 #stingray-fish { background-image: url(../img/stingray-fish.jpg); }
-#stone-fish { background-image: url(../img/stone-fish.jpg); }
+
 /* Background settings */
 .demo-page {
     background-size: cover;
