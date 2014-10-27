@@ -12,8 +12,8 @@ body{
 }
 
 #start {
-    width:10em;
-    height:10em;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
@@ -22,4 +22,50 @@ body{
 
 #start .text {
     padding: 25%;
+}
+
+.content {
+    
+}
+#electric-fish { background-image: url(../img/electric-fish.jpg); }
+#fire-coral { background-image: url(../img/fire-coral.jpg); }
+#main { background-image: url(../img/header.jpg); }
+#jelly-fish { background-image: url(../img/jelly-fish.jpg); }
+#lion-fish { background-image: url(../img/lion-fish.jpg); }
+#puffer-fish { background-image: url(../img/puffer-fish.jpg); }
+#scorpion-fish { background-image: url(../img/scorpion-fish.jpg); }
+#sea-urchin { background-image: url(../img/sea-urchin.jpg); }
+#stingray-fish { background-image: url(../img/stingray-fish.jpg); }
+#stone-fish { background-image: url(../img/stone-fish.jpg); }
+/* Background settings */
+.demo-page {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* Transparent footer */
+.demo-page .ui-footer {
+    background: none;
+    border: none;
+    bottom: 0;
+}
+/* The footer won't have a height because there are only two absolute positioned elements in it.
+So we position the buttons from the bottom. */
+.control.ui-btn-left, .trivia-btn.ui-btn-right {
+    top: auto;
+    bottom: 7px;
+    margin: 0;
+}
+/* Custom styling for the trivia source */
+small {
+    font-size: .75em;
+    color: #666;
+}
+/* Prevent text selection while swiping with mouse */
+.demo-page .ui-header, .ui-title, .control .ui-btn, .trivia-btn {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
